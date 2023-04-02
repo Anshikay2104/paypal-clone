@@ -1,0 +1,654 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img img{
+    width:140px;
+    margin-right: 100px;
+    margin-top: 8px;
+    padding-bottom: 15px;
+}
+.indi a{
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 8px;
+    margin-right: 70px;
+    padding-bottom: 15px;
+    font-weight: lighter;
+    color: black;
+    text-decoration: none;
+}
+.indi a:hover{
+    color: rgba(25, 99, 168, 0.991);
+    transition: 0.1s;
+}
+.busi a{
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 8px;
+    margin-right: 70px;
+    padding-bottom: 15px;
+    font-weight: lighter;
+    color: black;
+    text-decoration: none;
+}
+.busi a:hover{
+    color: rgba(25, 99, 168, 0.991);
+    transition: 0.1s;
+}
+/* .part a{
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 8px;
+    margin-right: 70px;
+    padding-bottom: 15px;
+    font-weight: lighter;
+    color: black;
+    text-decoration: none;
+}
+.part a:hover{
+    color: rgba(25, 99, 168, 0.991);
+    transition: 0.1s;
+} */
+.dropbtn{
+    background-color: white;
+    text-decoration: none;
+    border-style: none;
+    font-size: 15px;
+    padding-right: 60px;
+
+}
+.part{
+    position: relative;
+    display: inline-block;
+}
+.drop-contents{
+    background-color:rgba(2, 63, 138, 0.991) ;
+    position: absolute;
+    display: block;
+    z-index: 1;
+    padding-top: 20px;
+    margin-top: 24px;
+    padding-bottom: 95px;
+}
+.drop-contents a{
+    color: white;
+    font-size: 20px;
+    text-align:left;
+    text-decoration: none;
+}
+
+
+
+
+
+.info a{
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 8px;
+    margin-right: 70px;
+    padding-bottom: 15px;
+    font-weight: lighter;
+    color: black;
+    text-decoration: none;
+}
+.info a:hover{
+    color: rgba(25, 99, 168, 0.991);
+    transition: 0.1s;
+}
+.login a{
+    font-size: 12px;
+    color:rgb(0, 114, 220) ;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 8px;
+    margin-right: 20px;
+    margin-left: 50px;
+    border: 1.5px solid rgb(0, 114, 220) ;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    font-weight: lighter;
+    text-decoration: none;
+}
+.login a:hover{
+    color: rgba(25, 99, 168, 0.991);
+    transition: 0.1s;
+    border-width: 4px;
+}
+.Sign a{
+    font-size: 12px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 8px;
+    border: 1.5px solid rgba(25, 99, 168, 0.991) ;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    background-color: rgba(25, 99, 168, 0.991);
+    font-weight: lighter;
+    text-decoration: none;
+}
+.Sign a:hover{
+    color: white;
+    transition: 0.1s;
+    border-width: 4px;
+}
+.main h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:lighter;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 330px;
+    padding-right: 330px;
+    padding-bottom: 40px;
+    background-color: rgba(55, 166, 235, 0.991);
+}
+.main2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(55, 166, 235, 0.991);
+}
+.main3 a{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    color: rgb(0, 81, 157);
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 15px;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: white;
+    text-decoration: none;
+}
+.main3 a:hover{
+    border-width: 3px;
+    color: black;
+    transition: 0.1s;
+}
+.images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(55, 166, 235, 0.991);
+}
+.first img{
+    width: 300px;
+    padding-top: 80px;
+}
+.second img{
+    width:300px ;
+    padding-top: 80px;
+}
+.third img{
+    width:280px ;
+    padding-top: 80px;
+}
+.fourth img{
+    width:280px ;
+    padding-top: 80px;
+}
+.blue h1{
+    font-size: 18px;
+    font-family:monospace;
+    font-weight: lighter;
+    text-align: center;
+    color: white;
+    background-color:rgba(2, 63, 138, 0.991) ;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.blue1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgba(2, 63, 138, 0.991);
+    padding-bottom: 30px;
+}
+.blue2 a{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    color: rgb(0, 81, 157);
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 12px;
+    padding-left: 35px;
+    padding-right: 35px;
+    background-color: white;
+    text-decoration: none;
+}
+.blue2 a:hover{
+    border-width: 3px;
+    color: black;
+    transition: 0.1s;
+}
+.divis{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(246, 246, 246);
+}
+.sec h1{
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    color: rgba(55, 166, 235, 0.991);
+    margin-left: 200px;
+    padding-bottom: 30px;
+}
+.sec p{
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+    margin-left: 200px;
+    padding-bottom: 30px;
+}
+.trans img{
+    float: right;
+    width: 420px;
+    background-color:rgb(246, 246, 246) ;
+    margin-right: 250px;
+    padding-bottom: 30px;
+}
+
+.chota a{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    color: rgb(0, 81, 157);
+    border: 1.5px solid rgb(0, 81, 157) ;
+    border-radius: 30px;
+    padding: 12px;
+    padding-left: 25px;
+    padding-right: 60px;
+    background-color: white;
+    margin-left: 195px;
+    margin-right: 360px;
+    padding-left: 90px;
+    text-decoration: none;
+}
+.chota a:hover{
+    border-width: 2px;
+    color: black;
+    transition: 0.1s;
+}
+.divis2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.trans2 img{
+    margin-left: 200px;
+    float: left;
+    width: 420px;
+}
+.sec2 h1{
+    float: right;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    color: rgba(55, 166, 235, 0.991);
+    margin-right: 300px;
+}
+.sec2 p{
+    margin-top: 60px;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+    margin-right: 350px;
+    margin-left: 130px;
+    margin-bottom: 30px;
+}
+.chota2 a{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    color: rgb(0, 81, 157);
+    border: 1.5px solid rgb(0, 81, 157) ;
+    border-radius: 30px;
+    margin-left: 120px;
+    margin-right: 450px;
+    padding: 12px;
+    padding-left: 43px;
+    padding-right: 45px;
+    text-decoration: none;
+}
+.chota2 a:hover{
+    border-width: 2px;
+    color: black;
+    transition: 0.1s;
+}
+.divis3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(246, 246, 246);
+}
+.sec3 h1{
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    color: rgba(55, 166, 235, 0.991);
+    margin-left: 200px;
+    padding-bottom: 30px;
+}
+.sec3 p{
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+    margin-left: 200px;
+    padding-bottom: 30px;
+    margin-right: 100px;
+}
+.trans3 img{
+    float: right;
+    width: 380px;
+    background-color:rgb(246, 246, 246) ;
+    margin-right: 250px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.chota3 a{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    color: rgb(0, 81, 157);
+    border: 1.5px solid rgb(0, 81, 157) ;
+    border-radius: 30px;
+    padding: 12px;
+    padding-left: 35px;
+    padding-right: 80px;
+    background-color: white;
+    margin-left: 195px;
+    margin-right: 350px;
+    padding-left: 90px;
+    text-decoration: none;
+}
+.chota3 a:hover{
+    border-width: 2.5px;
+    color: black;
+    transition: 0.1s;
+}
+.bottom h1{
+    font-size: 30px;
+    color:rgba(55, 166, 235, 0.991) ;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: lighter;
+    padding-top: 80px;
+}
+.images2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 70px;
+}
+.first2 img{
+    width: 120px;
+    padding-top: 30px;
+    padding-right: 40px;
+}
+.second2 img{
+    width:120px ;
+    padding-top: 30px;
+    padding-right: 40px;
+}
+.third2 img{
+    width:120px ;
+    padding-top: 30px;
+}
+.random h1{
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    color: white;
+    background-color:rgba(55, 166, 235, 0.991);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 340px;
+    padding-right: 340px;
+}
+.blue3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgba(55, 166, 235, 0.991);
+    padding-bottom: 60px;
+}
+.blue4 a{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    color: rgb(0, 81, 157);
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 12px;
+    padding-left: 90px;
+    padding-right: 90px;
+    background-color: white;
+    text-decoration: none;
+}
+.blue4 a:hover{
+    border-width: 2.5px;
+    color: black;
+    transition: 0.1s;
+}
+.num{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgba(55, 166, 235, 0.991) ;
+    padding-bottom: 50px;
+}
+.a h1{
+    font-size: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-right: 6px;
+}
+.b h1{
+    font-size: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-right: 6px;
+}
+.c h1{
+    font-size: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-right: 6px;
+}
+.d h1{
+    font-size: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-right: 6px;
+}
+.e h1{
+    font-size: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-right: 6px;
+}
+.f h1{
+    font-size: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-right: 6px;
+}
+.g h1{
+    font-size: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-right: 6px;
+}
+.h h1{
+    font-size: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-right: 6px;
+}
+.i h1{
+    font-size: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-right: 6px;
+}
+.term h1{
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    padding-top: 50px;
+    margin-left: 180px;
+}
+.term h2{
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    margin-left: 180px;
+}
+.term h3{
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    margin-left: 180px;
+    padding-bottom: 80px;
+}
+.cond{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 15px;
+    margin-right: 600px;
+}
+.p h1{
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    padding-right: 40px;
+}
+.q h1{
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    padding-right: 40px;
+}
+.r h1{
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    padding-right: 40px;
+}
+.s h1{
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    padding-right: 40px;
+}
+.t h1{
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    padding-right: 40px;
+}
+.u h1{
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    padding-right: 40px;
+}
+.dash p{
+    margin-left:180px ;
+}
+.dash h3{
+    font-size: 13px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    margin-left:180px ;
+    padding-top: 20px;
+    color: grey;
+}
+.dash h4{
+    font-size: 13px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    margin-left:180px ;
+    padding-top: 20px;
+    color: grey;
+}
